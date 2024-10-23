@@ -50,6 +50,7 @@ def upload_image():
             <!doctype html>
             <title>Image Converted</title>
             <h1>Image successfully converted!</h1>
+            <img src="/download/{jpg_filename}" alt="your image as a jpg" width="300px"><br />
             <a href="/download/{jpg_filename}" download>Download {jpg_filename}</a>
             '''
     
